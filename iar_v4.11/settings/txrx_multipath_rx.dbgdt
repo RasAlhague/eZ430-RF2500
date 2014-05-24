@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log/>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1155</ColumnWidth1>
+        <ColumnWidth2>308</ColumnWidth2>
+        <ColumnWidth3>77</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>184</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <PreferedWindows>
+          
+          
+          
+          
+        <Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows>
+        
+        
+      <MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow></Disassembly>
+      <Watch>
+        <Format>
+          <struct_types/>
+          <watch_formats>
+            
+            
+          <Fmt><Key>{W}Watch-0:channel</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-0:i</Key><Value>3</Value></Fmt><Fmt><Key>{W}Watch-0:packet.rxMetrics[0]</Key><Value>3</Value></Fmt></watch_formats>
+        </Format>
+        
+        
+        
+        
+      <Column0>120</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Watch>
+    </Static>
+    <Windows>
+      
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-289-4646</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-32534-4656</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-11037-4649</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/txrx_multipath_rx</ExpandedNode><ExpandedNode>&lt;ws&gt;/txrx_multipath_rx/Application</ExpandedNode><ExpandedNode>&lt;ws&gt;/txrx_probability</ExpandedNode><ExpandedNode>&lt;ws&gt;/txrx_probability/Application</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-5956-7406</Identity>
+            <TabName>Watch</TabName>
+            <Factory>Watch</Factory>
+            <Session>
+              <Expressions>
+                
+                
+                
+                
+              <Expression><Expression>channel_str</Expression></Expression><Expression><Expression>rx</Expression></Expression><Expression><Expression>channel</Expression></Expression><Expression><Expression>i</Expression></Expression><Expression><Expression>cumulative_rssi</Expression></Expression><Expression><Expression>packet.rxMetrics[0]</Expression></Expression></Expressions>
+              
+              
+              
+              
+              
+            <TabId>0</TabId><Column0>120</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Thomas\Documents\Papers\zz_lab_ezwsn\source_code\c_files\txrx_multipath_rx.c</Filename><XPos>0</XPos><YPos>30</YPos><SelStart>1200</SelStart><SelEnd>1200</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\Thomas\Documents\Papers\zz_lab_ezwsn\source_code\c_files\txrx_multipath_tx.c</Filename><XPos>0</XPos><YPos>7</YPos><SelStart>1108</SelStart><SelEnd>1158</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0222e310><key>iaridepm.enu1</key></Toolbar-0222e310></Sizes></Row0><Row1><Sizes><Toolbar-06b4fea0><key>debuggergui.enu1</key></Toolbar-06b4fea0><Toolbar-06b4ff60><key>430fet1</key></Toolbar-06b4ff60></Sizes></Row1><Row2><Sizes/></Row2></Top><Left><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>431</Bottom><Right>275</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>195313</sizeHorzCX><sizeHorzCY>286533</sizeHorzCY><sizeVertCX>270508</sizeVertCX><sizeVertCY>620344</sizeVertCY></Rect></Wnd4></Sizes></Row0></Left><Right><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>431</Bottom><Right>170</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>195313</sizeHorzCX><sizeHorzCY>286533</sizeHorzCY><sizeVertCX>167969</sizeVertCX><sizeVertCY>620344</sizeVertCY></Rect></Wnd5></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1026</Right><x>-2</x><y>-2</y><xscreen>1028</xscreen><yscreen>200</yscreen><sizeHorzCX>1003906</sizeHorzCX><sizeHorzCY>286533</sizeHorzCY><sizeVertCX>195313</sizeVertCX><sizeVertCY>286533</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

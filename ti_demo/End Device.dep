@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2124622013</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\demo_ED.c</file>
+      <file>$PROJ_DIR$\Components\bsp\bsp.c</file>
+      <file>$PROJ_DIR$\Components\bsp\bsp.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nwk_globals.r43</file>
+      <file>$PROJ_DIR$\Components\mrfi\radios\CC2500\mrfi_CC2500_defs.h</file>
+      <file>$PROJ_DIR$\Components\SimpliciTI\nwk\nwk_types.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\vlo_rand.r43</file>
+      <file>$PROJ_DIR$\vlo_rand.s43</file>
+      <file>$PROJ_DIR$\Components\bsp\bsp_macros.h</file>
+      <file>$PROJ_DIR$\Components\mrfi\mrfi.c</file>
+      <file>$PROJ_DIR$\Components\mrfi\mrfi.h</file>
+      <file>$PROJ_DIR$\Components\mrfi\mrfi_defs.h</file>
+      <file>$PROJ_DIR$\Components\simpliciti\nwk\nwk_globals.c</file>
+      <file>$PROJ_DIR$\Components\simpliciti\nwk\nwk_globals.h</file>
+      <file>$PROJ_DIR$\lib\SimpliciTI EZ430RF NWK ED Library.lib</file>
+      <file>$PROJ_DIR$\Configuration\End Device\smpl_config.dat</file>
+      <file>$PROJ_DIR$\Configuration\smpl_nwk_config.dat</file>
+      <file>$PROJ_DIR$\Components\bsp\drivers\bsp_buttons.h</file>
+      <file>$PROJ_DIR$\vlo_rand.h</file>
+      <file>$PROJ_DIR$\Components\bsp\boards\EZ430RF\bsp_drivers.c</file>
+      <file>$PROJ_DIR$\Components\bsp\mcus\bsp_msp430_defs.h</file>
+      <file>$PROJ_DIR$\Components\bsp\drivers\bsp_leds.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo_ED.pbi</file>
+      <file>$PROJ_DIR$\Components\bsp\boards\EZ430RF\bsp_board_defs.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp.pbi</file>
+      <file>$PROJ_DIR$\Components\bsp\drivers\code\bsp_generic_buttons.h</file>
+      <file>$PROJ_DIR$\Components\bsp\boards\EZ430RF\bsp_led_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Components\bsp\boards\EZ430RF\bsp_config.h</file>
+      <file>$PROJ_DIR$\Components\bsp\boards\EZ430RF\bsp_driver_defs.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mrfi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\End Device.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\Components\SimpliciTI\nwk\nwk_api.h</file>
+      <file>$PROJ_DIR$\Components\bsp\boards\EZ430RF\bsp_button_defs.h</file>
+      <file>$PROJ_DIR$\Components\bsp\drivers\code\bsp_generic_leds.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nwk_globals.pbi</file>
+      <file>$PROJ_DIR$\Components\bsp\boards\EZ430RF\bsp_external\mrfi_board.c</file>
+      <file>$PROJ_DIR$\Components\bsp\drivers\code\bsp_buttons.c</file>
+      <file>$PROJ_DIR$\Components\bsp\boards\EZ430RF\bsp_external\mrfi_board_defs.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F2274.xcl</file>
+      <file>$PROJ_DIR$\Components\mrfi\radios\CC2500\smartrf_CC2500.h</file>
+      <file>$PROJ_DIR$\Components\bsp\drivers\code\bsp_leds.c</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl430f.r43</file>
+      <file>$PROJ_DIR$\Components\mrfi\radios\CC2500\mrfi_CC2500_spi.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\End Device.d43</file>
+      <file>$PROJ_DIR$\Components\mrfi\radios\CC2500\mrfi_CC2500_spi.c</file>
+      <file>$PROJ_DIR$\Components\bsp\boards\EZ430RF\bsp_board.c</file>
+      <file>$PROJ_DIR$\Components\mrfi\radios\CC2500\mrfi_CC2500.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x22x4.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mrfi.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo_ED.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Texas Instruments\SimpliciTI-1.0.6\Documents\lab_ezwsn\ti_demo\demo_ED.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\demo_ED.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 23 20 33 28 29 8 10 11 41 4 5 34 21 26 36 17 35 25 18</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 16 2 23 20 33 52 55 28 29 8 10 11 41 4 5 34 21 26 36 17 35 25 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Components\bsp\bsp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 23 20 33 28 29 8 30</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 16 2 23 20 33 52 55 28 29 8 30 49 19 21 26 36 17 35 25 44 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\vlo_rand.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Components\mrfi\mrfi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 41 2 23 20 33 28 29 8 4</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 16 11 41 2 23 20 33 52 55 28 29 8 4 50 27 37 10 46 43 39 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Components\simpliciti\nwk\nwk_globals.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 37 2 23 20 33 28 29 8 10 11 41 4 5 13</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 16 27 37 2 23 20 33 52 55 28 29 8 10 11 41 4 5 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\End Device.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 24 22 31 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\End Device.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 42 51 54 53 3 6 14 45</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

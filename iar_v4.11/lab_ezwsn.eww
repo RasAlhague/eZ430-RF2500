@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\adc_sensing.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\led_button.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\led_loop.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\led_steady.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\led_timer.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\simple_sensing.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_chat.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_crc.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_multipath_rx.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_multipath_tx.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_noise.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_preample_msp.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_preample_wor.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_probability.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_simple.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_wsn.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_wsn_node.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\txrx_wsn_sink.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

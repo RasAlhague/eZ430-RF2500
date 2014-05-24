@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>Access Point/Debug</Project><Project>End Device/Debug</Project></CurrentConfigs><CurrentProj>Access Point</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>203</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>916</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows></Debug-Log><Disassembly><MixedMode>1</MixedMode><CodeCovEnabled>0</CodeCovEnabled><CodeCovShow>0</CodeCovShow></Disassembly></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-8651-20547</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws></ExpandedNode><ExpandedNode>Access Point</ExpandedNode><ExpandedNode>Access Point/Application</ExpandedNode><ExpandedNode>Access Point/Components</ExpandedNode><ExpandedNode>Access Point/Components/bsp</ExpandedNode><ExpandedNode>Access Point/Components/mrfi</ExpandedNode><ExpandedNode>Access Point/Components/nwk</ExpandedNode><ExpandedNode>Access Point/Configuration</ExpandedNode><ExpandedNode>End Device</ExpandedNode><ExpandedNode>End Device/Application</ExpandedNode><ExpandedNode>End Device/Components</ExpandedNode><ExpandedNode>End Device/Components/bsp</ExpandedNode><ExpandedNode>End Device/Components/mrfi</ExpandedNode><ExpandedNode>End Device/Components/nwk</ExpandedNode><ExpandedNode>End Device/Configuration</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-12588-6061</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-30456-4378</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\a0217845\Desktop\CD_EZRF\IAR projects\demo_AP.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>5388</SelStart><SelEnd>5388</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\a0217845\Desktop\CD_EZRF\IAR projects\demo_ED.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>4141</SelStart><SelEnd>4141</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-018f4cb8><key>iaridepm.enu1</key></Toolbar-018f4cb8></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6><Row7><Sizes/></Row7><Row8><Sizes/></Row8><Row9><Sizes/></Row9><Row10><Sizes/></Row10></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>744</Bottom><Right>277</Right><x>-2</x><y>-2</y><xscreen>-2237617</xscreen><yscreen>-1509620</yscreen><sizeHorzCX>-1748138280</sizeHorzCX><sizeHorzCY>-1531054766</sizeHorzCY><sizeVertCX>217969</sizeVertCX><sizeVertCY>756592</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>200</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>202840</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>202840</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
