@@ -162,16 +162,16 @@ void SetBaseFrequencyRegisters(uint8_t range)
 
 void letsRock()
 {
-  //BSP_Init();
-  //MRFI_Init();
+  BSP_Init();
+  MRFI_Init();
   P3SEL    |= 0x30;
   UCA0CTL1  = UCSSEL_2;
   UCA0BR0   = 0x41;
   UCA0BR1   = 0x3;
   UCA0MCTL  = UCBRS_2;
   UCA0CTL1 &= ~UCSWRST;
-  IE2      |= UCA0RXIE; // Enable USCI_A0 RX interrupt
-  //MRFI_WakeUp();
+  //IE2      |= UCA0RXIE; // Enable USCI_A0 RX interrupt
+  MRFI_WakeUp();
   __bis_SR_register(GIE);
   
   //Need to check this field if smartrf_CC2500.h is changed 
@@ -195,37 +195,20 @@ Register ADDRESS stores in mrfi_spi.h
 int loop = 1;
 int main(void)
 {
-  BSP_Init();
-  MRFI_Init();
-  P3SEL    |= 0x30;
-  UCA0CTL1  = UCSSEL_2;
-  UCA0BR0   = 0x41;
-  UCA0BR1   = 0x3;
-  UCA0MCTL  = UCBRS_2;
-  UCA0CTL1 &= ~UCSWRST;
-  IE2      |= UCA0RXIE; // Enable USCI_A0 RX interrupt
-  MRFI_WakeUp();
-  __bis_SR_register(GIE);
-  
-  while (1)
-  {
-    TXString("\n",1);
-  }
-  
-  //letsRock();
-    
-  /*
+  //wait ~ 10sec 
   WDTCTL = WDTPW + WDTHOLD;
   int i;
   int y;
-  //while (1) {
     for (i=0;i<100;i++) {
       for (y=0;y<10000;y++) {
         __no_operation();
       }
+      for (y=0;y<10000;y++) {
+        __no_operation();
+      }
     }
-  //}
-
+  
+  //and 
   letsRock();
   
   /*
@@ -267,10 +250,12 @@ void MRFI_RxCompleteISR()
 #pragma vector=USCIAB0RX_VECTOR
 __interrupt void USCI0RX_ISR(void)
 {
+  /*
     char rx = UCA0RXBUF;
 
     if (rx=='\r')
     {
       letsRock();
     }
+  */
 }

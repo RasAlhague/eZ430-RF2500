@@ -6,31 +6,10 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\..\drivers\mrfi\radios\common\mrfi_f1f2.c</file>
-      <file>$PROJ_DIR$\..\drivers\bsp\boards\EZ430RF\bsp_driver_defs.h</file>
-      <file>$PROJ_DIR$\..\drivers\mrfi\radios\family1\mrfi_radio.c</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\ycheck.h</file>
-      <file>$PROJ_DIR$\..\..\..\Components\mrfi\smartrf\CC2500\smartrf_CC2500.h</file>
-      <file>$PROJ_DIR$\..\..\..\Components\mrfi\radios\family1\mrfi_spi.c</file>
-      <file>$PROJ_DIR$\..\..\..\Components\mrfi\radios\family1\mrfi_radio.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\bsp.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\txrx_preample_wor.pbi</file>
-      <file>$PROJ_DIR$\..\..\..\Components\mrfi\mrfi.h</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_board.c</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Threads.h</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_driver_defs.h</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_button_defs.h</file>
-      <file>$PROJ_DIR$\..\drivers\mrfi\radios\common\mrfi_f1f2.h</file>
-      <file>$PROJ_DIR$\..\drivers\bsp\drivers\code\bsp_generic_leds.h</file>
-      <file>$PROJ_DIR$\..\drivers\bsp\drivers\bsp_leds.h</file>
       <file>$TOOLKIT_DIR$\inc\dlib\yvals.h</file>
       <file>$PROJ_DIR$\..\drivers\bsp\boards\EZ430RF\bsp_external\mrfi_board.c</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\drivers\code\bsp_buttons.c</file>
-      <file>$PROJ_DIR$\..\drivers\mrfi\mrfi_defs.h</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_led_defs.h</file>
       <file>$PROJ_DIR$\Debug\Obj\bsp.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\drivers\code\bsp_buttons.c</file>
       <file>$PROJ_DIR$\main.c</file>
       <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_board_defs.h</file>
       <file>$PROJ_DIR$\txrx_preample_wor.c</file>
@@ -39,58 +18,79 @@
       <file>$PROJ_DIR$\Debug\Obj\txrx_preample_wor.r43</file>
       <file>$PROJ_DIR$\..\drivers\bsp\boards\EZ430RF\bsp_external\mrfi_board_defs.h</file>
       <file>$PROJ_DIR$\Debug\Obj\mrfi.r43</file>
-      <file>$TOOLKIT_DIR$\inc\io430.h</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\drivers\code\bsp_generic_leds.h</file>
       <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_drivers.c</file>
       <file>$PROJ_DIR$\..\..\..\Components\mrfi\radios\family1\mrfi_spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\io430.h</file>
       <file>$TOOLKIT_DIR$\inc\dlib\string.h</file>
       <file>$PROJ_DIR$\..\drivers\bsp\boards\EZ430RF\bsp_config.h</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\drivers\code\bsp_generic_leds.h</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
       <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_external\mrfi_board.c</file>
+      <file>$PROJ_DIR$\..\drivers\bsp\boards\EZ430RF\bsp_led_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\bsp_macros.h</file>
       <file>$PROJ_DIR$\..\drivers\mrfi\smartrf\CC2500\smartrf_CC2500.h</file>
       <file>$PROJ_DIR$\..\drivers\bsp\boards\EZ430RF\bsp_board_defs.h</file>
       <file>$PROJ_DIR$\..\..\..\Components\mrfi\radios\common\mrfi_f1f2.h</file>
-      <file>$PROJ_DIR$\..\drivers\bsp\boards\EZ430RF\bsp_led_defs.h</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
       <file>$PROJ_DIR$\..\..\..\Components\mrfi\radios\common\mrfi_f1f2.c</file>
       <file>$TOOLKIT_DIR$\inc\dlib\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\txrx_preample_wor.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
       <file>$PROJ_DIR$\..\..\..\Components\bsp\drivers\bsp_leds.h</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
       <file>$PROJ_DIR$\..\drivers\bsp\mcus\bsp_msp430_defs.h</file>
       <file>$TOOLKIT_DIR$\inc\dlib\xencoding_limits.h</file>
       <file>$PROJ_DIR$\..\..\..\Components\bsp\bsp.c</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\bsp_macros.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\txrx_preample_wor.pbd</file>
       <file>$PROJ_DIR$\Debug\Exe\txrx_preample_wor.d43</file>
       <file>$PROJ_DIR$\..\..\..\Components\mrfi\mrfi_defs.h</file>
       <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_external\mrfi_board_defs.h</file>
       <file>$PROJ_DIR$\Debug\Obj\mrfi.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
       <file>$PROJ_DIR$\Debug\Obj\bsp.r43</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\drivers\bsp_buttons.h</file>
       <file>$PROJ_DIR$\..\..\..\Components\bsp\mcus\bsp_msp430_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
       <file>$PROJ_DIR$\..\..\..\Components\bsp\drivers\code\bsp_leds.c</file>
       <file>$TOOLKIT_DIR$\inc\dlib\ysizet.h</file>
       <file>$PROJ_DIR$\..\drivers\mrfi\radios\family1\mrfi_spi.c</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\drivers\bsp_buttons.h</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\drivers\code\bsp_generic_buttons.h</file>
-      <file>$TOOLKIT_DIR$\config\lnk430F2274.xcl</file>
-      <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_config.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Product.h</file>
-      <file>$TOOLKIT_DIR$\inc\msp430x22x4.h</file>
       <file>$PROJ_DIR$\..\c_files\txrx_preample_wor.c</file>
       <file>$PROJ_DIR$\..\drivers\bsp\bsp.c</file>
       <file>$PROJ_DIR$\..\drivers\bsp\bsp.h</file>
       <file>$PROJ_DIR$\..\drivers\bsp\bsp_macros.h</file>
       <file>$PROJ_DIR$\..\drivers\mrfi\mrfi.c</file>
       <file>$PROJ_DIR$\..\drivers\mrfi\mrfi.h</file>
+      <file>$PROJ_DIR$\..\drivers\mrfi\mrfi_defs.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\drivers\mrfi\radios\common\mrfi_f1f2.c</file>
+      <file>$PROJ_DIR$\..\drivers\mrfi\radios\family1\mrfi_radio.c</file>
+      <file>$PROJ_DIR$\..\..\..\Components\mrfi\smartrf\CC2500\smartrf_CC2500.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\txrx_preample_wor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\..\..\..\Components\mrfi\radios\family1\mrfi_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\bsp.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\Components\mrfi\radios\family1\mrfi_radio.c</file>
+      <file>$PROJ_DIR$\..\drivers\bsp\boards\EZ430RF\bsp_driver_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\Components\mrfi\mrfi.h</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_driver_defs.h</file>
+      <file>$PROJ_DIR$\..\drivers\mrfi\radios\common\mrfi_f1f2.h</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_board.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\drivers\code\bsp_generic_buttons.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F2274.xcl</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_config.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x22x4.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_button_defs.h</file>
+      <file>$PROJ_DIR$\..\drivers\bsp\drivers\bsp_leds.h</file>
+      <file>$PROJ_DIR$\..\..\..\Components\bsp\boards\EZ430RF\bsp_led_defs.h</file>
+      <file>$PROJ_DIR$\..\drivers\bsp\drivers\code\bsp_generic_leds.h</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 55</file>
+          <file> 34</file>
         </tool>
       </outputs>
     </file>
@@ -99,17 +99,17 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 8</file>
+          <file> 57</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 0</file>
+          <file> 52</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 33</file>
+          <file> 16</file>
         </tool>
       </inputs>
     </file>
@@ -118,21 +118,21 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 30</file>
+          <file> 9</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 10</file>
+          <file> 56</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 11 9 26 61 59 71 45 39 69 53 56 48 23 38 35</file>
+          <file> 63 59 5 40 41 72 28 15 70 21 35 29 76 12 14</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 11 9 26 61 59 39 69 53 56 48 23 38 35</file>
+          <file> 63 59 5 40 41 15 70 21 35 29 76 12 14</file>
         </tool>
       </inputs>
     </file>
@@ -141,44 +141,21 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 32</file>
+          <file> 11</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 58</file>
+          <file> 37</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 56 9 26 61 59 71 45 39 69 53 48 23 38 7 36 4 19 47 49 70 51 13 63 11 57 35 43 5 6 46 40</file>
+          <file> 35 59 5 40 41 72 28 15 70 21 29 76 12 61 17 60 0 26 30 71 32 73 43 63 36 14 24 55 58 25 19</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 56 9 26 61 59 39 69 53 48 23 38 7 36 4 19 47 70 51 13 63 11 57 35 43 5 6 46 40</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\Components\bsp\bsp.c</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 60</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 24</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 9 26 61 59 71 45 39 69 53 14 12 34 48 23 38 65 15 67 62 21</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 9 26 61 59 39 69 53 14</file>
+          <file> 35 59 5 40 41 15 70 21 29 76 12 61 17 60 0 26 71 32 73 43 63 36 14 24 55 58 25 19</file>
         </tool>
       </inputs>
     </file>
@@ -187,7 +164,30 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 24 58 10</file>
+          <file> 2 37 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\Components\bsp\bsp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 59 5 40 41 72 28 15 70 21 64 66 13 29 76 12 39 74 68 42 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 5 40 41 15 70 21 64</file>
         </tool>
       </inputs>
     </file>
@@ -196,7 +196,7 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 68 60 32 30 66</file>
+          <file> 69 38 11 9 67</file>
         </tool>
       </inputs>
     </file>
@@ -205,21 +205,21 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 30</file>
+          <file> 9</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 10</file>
+          <file> 56</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 77 74 42 50 59 71 45 39 37 75 22 18 44 17 29</file>
+          <file> 50 47 23 31 41 72 28 15 18 48 51 75 20 77 8</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 77 74 42 50 59 39 37 75 22 18 44 17 29</file>
+          <file> 50 47 23 31 41 15 18 48 51 75 20 77 8</file>
         </tool>
       </inputs>
     </file>
@@ -228,17 +228,17 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 60</file>
+          <file> 38</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 24</file>
+          <file> 2</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 74 42 50 59 39 37 75 2</file>
+          <file> 47 23 31 41 15 18 48 62</file>
         </tool>
       </inputs>
     </file>
@@ -247,17 +247,17 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 32</file>
+          <file> 11</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 58</file>
+          <file> 37</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 22 74 42 50 59 39 37 75 18 44 17 3 36 4 19 47 70 51 13 63 77 31 29 16 41 64 1 20</file>
+          <file> 51 47 23 31 41 15 18 48 75 20 77 54 17 60 0 26 71 32 73 43 50 10 8 65 22 44 53 1</file>
         </tool>
       </inputs>
     </file>
@@ -284,12 +284,12 @@
       <file>$PROJ_DIR$\Release\Obj\bsp.pbi</file>
       <file>$PROJ_DIR$\Release\Obj\txrx_preample_wor.r43</file>
       <file>$PROJ_DIR$\Release\Obj\bsp.r43</file>
-      <file>$PROJ_DIR$\..\drivers\mrfi\mrfi_defs.h</file>
       <file>$PROJ_DIR$\..\c_files\txrx_preample_wor.c</file>
       <file>$PROJ_DIR$\..\drivers\bsp\bsp.c</file>
       <file>$PROJ_DIR$\..\drivers\bsp\bsp.h</file>
       <file>$PROJ_DIR$\..\drivers\bsp\bsp_macros.h</file>
       <file>$PROJ_DIR$\..\drivers\mrfi\mrfi.c</file>
+      <file>$PROJ_DIR$\..\drivers\mrfi\mrfi_defs.h</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
@@ -328,7 +328,7 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 10 11</file>
+          <file> 9 10</file>
         </tool>
       </inputs>
     </file>
@@ -347,7 +347,7 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 7</file>
+          <file> 12</file>
         </tool>
       </inputs>
     </file>

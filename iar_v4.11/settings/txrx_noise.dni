@@ -25,7 +25,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=250808582
+Checksum=1506970316
 [Stack]
 FillEnabled=0
 OverflowWarningsEnabled=1
@@ -70,9 +70,7 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\c_files\txrx_noise.c}.274.7" 1 0 0 0 "" 0 ""
-Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\c_files\txrx_noise.c}.270.10" 0 0 0 0 "" 0 ""
-Count=2
+Count=0
 [FET]
 Clock mode=38
 Extended Clock mode=0

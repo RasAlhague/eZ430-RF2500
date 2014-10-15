@@ -6,32 +6,32 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-      <file>$PROJ_DIR$\..\c_files\led_timer.c</file>
-      <file>$TOOLKIT_DIR$\config\lnk430F2274.xcl</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\led_timer.pbi</file>
+      <file>$PROJ_DIR$\..\c_files\led_timer.c</file>
       <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$TOOLKIT_DIR$\inc\io430x22x4.h</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
-      <file>$PROJ_DIR$\main.c</file>
       <file>$PROJ_DIR$\Debug\Obj\led_timer.r43</file>
-      <file>$PROJ_DIR$\Debug\Exe\led_timer.ulp</file>
+      <file>$PROJ_DIR$\main.c</file>
       <file>$PROJ_DIR$\led_timer.c</file>
-      <file>$TOOLKIT_DIR$\inc\io430.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\led_timer.ulp</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$TOOLKIT_DIR$\inc\io430x22x4.h</file>
       <file>$PROJ_DIR$\Debug\Exe\led_timer.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$TOOLKIT_DIR$\inc\io430.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F2274.xcl</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 14</file>
+          <file> 10</file>
         </tool>
         <tool>
           <name>ULP430</name>
-          <file> 11</file>
+          <file> 7</file>
         </tool>
       </outputs>
     </file>
@@ -40,21 +40,21 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 10</file>
+          <file> 3</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 4</file>
+          <file> 0</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 13 7 6 5</file>
+          <file> 13 9 6 2</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 13 7 5 6</file>
+          <file> 13 9 2 6</file>
         </tool>
       </inputs>
     </file>
@@ -63,11 +63,11 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 0</file>
+          <file> 12</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 3</file>
+          <file> 11</file>
         </tool>
       </outputs>
       <inputs>
@@ -82,21 +82,21 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 10</file>
+          <file> 3</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 4</file>
+          <file> 0</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 13 7 6 5</file>
+          <file> 13 9 6 2</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 13 6 5</file>
+          <file> 13 6 2</file>
         </tool>
       </inputs>
     </file>
@@ -105,7 +105,7 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 2 10 8</file>
+          <file> 14 3 8</file>
         </tool>
       </inputs>
     </file>

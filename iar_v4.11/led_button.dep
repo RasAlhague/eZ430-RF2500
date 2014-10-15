@@ -15,8 +15,8 @@
       <file>$PROJ_DIR$\main.c</file>
       <file>$TOOLKIT_DIR$\inc\io430.h</file>
       <file>$PROJ_DIR$\led_button.c</file>
-      <file>$TOOLKIT_DIR$\config\lnk430F2274.xcl</file>
       <file>$PROJ_DIR$\Debug\Obj\led_button.r43</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F2274.xcl</file>
       <file>$PROJ_DIR$\Debug\Exe\led_button.d43</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
@@ -26,7 +26,7 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 10</file>
+          <file> 9</file>
         </tool>
         <tool>
           <name>BICOMP</name>
@@ -68,7 +68,7 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 10</file>
+          <file> 9</file>
         </tool>
         <tool>
           <name>BICOMP</name>
@@ -87,7 +87,7 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 9 10 12</file>
+          <file> 10 9 12</file>
         </tool>
       </inputs>
     </file>
